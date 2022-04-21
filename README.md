@@ -1,4 +1,4 @@
-# Projeto Copa do Mundo
+# Projeto Copa do Mundo ⚽
 ## Sobre o site:
   O tema é a copa do mundo do Catar, deve conter todas as informações sobre o evento.
 ## Detalhes:
