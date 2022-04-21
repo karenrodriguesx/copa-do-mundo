@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;   
+}
+
+.background, nav{
+    background-image: url(../img/BANDEIRA_CATAR.png);
+    background-position: right;
+    background-repeat: repeat-y;
+}
+
+h1 {
+    Height:500px;
+}
+
+ul.menu li{
+    display: inline-block;
+    background: #c95f5f;
+    padding: 5px;
+  }
+  
+  .dropdown{
+    position: relative;
+  }
+  
+  .dropdown ul{
+    position: absolute;
+    left: 0;
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+  .dropdown ul li{
+    width: 100%;
+  }
+  
+  .dropdown:hover ul{
+    display: block;
+    width: 100%;
+    color: #fff;
+  }
