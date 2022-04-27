@@ -1,46 +1,65 @@
-*{
-    box-sizing: border-box;
+/*Resetando os valores de espaçamento */
+* {
     margin: 0;
     padding: 0;
-}
-
-html, body{
-    height: 1000%;   
-}
-
-.background{
-    background-image: url(../img/BANDEIRA_CATAR.png);
-    background-position: right;
-    background-repeat: repeat-y;
-}
-
-h1 {
-    Height:500px;
-}
-
-ul.menu li{
-    display: inline-block;
-    background: rgb(155, 154, 154);
-    padding: 5px;
+    }
+   /*Estilizando a nav da classe menu */
+  #logo{
+    float: left;
+    width: 200px;
+    height: 70px;
   }
-  
-  .dropdown{
+    .menu {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    font-family: Arial;
+    box-shadow: 2px 1px 3px #4F4F4F;
+    font-size: 15px;
+    text-transform: uppercase;
+    }
+   
+   /*Estilizando as listas */
+    .menu ul {
+    list-style: none;
     position: relative;
-  }
-  
-  .dropdown ul{
-    position: absolute;
-    left: 0;
-    display: none;
-    margin: 0;
-    padding: 0;
-  }
-  .dropdown ul li{
-    width: 100%;
-  }
-  
-  .dropdown:hover ul{
+    }
+   
+   .menu ul li {
+    width: 100px;
+    float: right;
+    }
+   
+   .menu .links {
+    padding: 20px;
     display: block;
-    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    background-color: #fff;
+    color: #000;
+    margin: 5px 0px 0px -5px;
+    }
+   
+   .menu ul ul {
+    position: absolute;
+    visibility: hidden;
+    }
+   
+   .menu ul li:hover ul {
+    visibility: visible;
+    }
+   
+   .menu .links:hover {
+    background-color: #CD0000;
     color: #fff;
-  }
+    }
+   
+   .menu ul ul li {
+    float: none;
+    border-bottom: solid 1px #ccc;
+    }
+   
+   .menu ul ul li a {
+    background-color: #fff;
+    }
