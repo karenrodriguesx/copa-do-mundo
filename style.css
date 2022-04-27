@@ -19,7 +19,7 @@
     text-transform: uppercase;
     }
    
-   /*Estilizando as listas */
+   
     .menu ul {
     list-style: none;
     position: relative;
@@ -63,3 +63,4 @@
    .menu ul ul li a {
     background-color: #fff;
     }
+/*fim da estilização do menu*/
