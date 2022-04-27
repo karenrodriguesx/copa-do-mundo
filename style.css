@@ -5,7 +5,7 @@
     font-family: Gill Sans, sans-serif;
     }
 /*Estilizando a imagem*/
-body {
+.fundo {
     width: 1200px;
     height: 150px;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@ body {
     }
    
    .menu ul li {
-    width: 100px;
+    width: 10%;
     float: right;
     }
    
@@ -48,7 +48,7 @@ body {
     font-weight: bold;
     background-color: #fff;
     color: #000;
-    margin: 15px 0px 0px -7px;
+    margin-top: 15px;
     }
    
    .menu ul ul {
