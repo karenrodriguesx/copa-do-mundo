@@ -89,6 +89,9 @@ h2 {
 h2,p{
     margin-top: 20px;
 }
+p {
+    font-size: 18px;
+}
 .bandeira{
     margin-left: 32%;
 }
