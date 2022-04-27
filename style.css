@@ -77,11 +77,11 @@ body {
 
 /*Estilizando a formatação do site*/
 .container-content {
-    width: 75%;
+    width: 70%;
     margin: 20px auto;
     margin-top: 15px;
     text-align:justify;
-    padding: 20px;
+    padding: 25px;
 }
 h2 {
     font-size: 22px;
