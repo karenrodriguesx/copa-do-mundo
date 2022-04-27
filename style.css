@@ -89,3 +89,8 @@ h2 {
 h2,p{
     margin-top: 20px;
 }
+.bandeiras{
+    width: 330;
+    height: 100;
+    margin: 20px auto;
+}
