@@ -74,3 +74,17 @@ body {
     background-color: #fff;
     }
 /*fim da estilização do menu*/
+
+/*Estilizando a formatação do site*/
+.container-content {
+    width: 80%;
+    margin: 15px auto;
+}
+h1 {
+    font-size: 22px;
+}
+
+
+
+
+
