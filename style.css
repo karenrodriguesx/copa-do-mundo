@@ -18,7 +18,7 @@ body {
   #logo{
     float: left;
     width: 200px;
-    height: 80px;
+    height: 70px;
   }
     .menu {
     width: 100%;
@@ -48,7 +48,7 @@ body {
     font-weight: bold;
     background-color: #fff;
     color: #000;
-    margin: 5px 0px 0px -5px;
+    margin: 15px 0px 0px -7px;
     }
    
    .menu ul ul {
