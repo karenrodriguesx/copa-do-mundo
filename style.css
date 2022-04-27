@@ -79,7 +79,7 @@ body {
 .container-content {
     width: 70%;
     margin: 20px auto;
-    margin-top: 15px;
+    margin-top: 25px;
     text-align:justify;
     padding: 25px;
 }
@@ -87,5 +87,5 @@ h2 {
     font-size: 22px;
 }
 h2,p{
-    margin-top: 15px;
+    margin-top: 20px;
 }
