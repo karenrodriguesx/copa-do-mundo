@@ -5,14 +5,14 @@
     font-family: Gill Sans, sans-serif;
     }
 /*Estilizando a imagem*/
-.fundo {
+body {
     width: 1200px;
     height: 150px;
     background-repeat: no-repeat;
     background-repeat: repeat-y;
     background-position-x: right;
     background-image: url(BANDEIRA_CATAR.png)
-  }
+}
  /*Fim da estilização de imagem*/
 
    /*Estilizando a nav da classe menu */
@@ -84,7 +84,8 @@
     padding: 25px;
 }
 h2 {
-    font-size: 22px;
+    font-size: 28px;
+    padding: 20px;
 }
 h2,p{
     margin-top: 20px;
