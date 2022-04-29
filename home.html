@@ -1,151 +1,135 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Copa do Mundo de 2022</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <style>
         .first_title {
-  font-size: 50px;
-}
+            font-size: 42px;
+            text-align: center;
+            padding: 20px 0;
+        }
 
-h2 {
-  text-align: center;
-  font-weight: bold;
-}
+        .cup_world {
+            max-width: 1200px;
+        }
 
-p {
-  font-family:courier,arial,helvetica;
-  font-size: 20px;
-  line-height: 1.6;
-}
+        .cp_img_collection {
+            max-width: 1200px;
+            text-align: center;
+        }
 
-.cup_world {
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 75px;
-    margin-bottom: 75px;
-}
+        .cp_img {
+            display: inline-block;
+            width: auto;
+            margin: 20px 40px;
+            height: 350px;
+            border: 2px solid #6e6e6e;
+            border-radius: 12px;
+            box-shadow: 11px 12px 15px -1px rgba(148, 148, 148, 0.52);
+        }
 
-.cup_world p {
-    padding: 10px 0;
-    margin-top: 75px;
-}
+        .cp_img img {
+            height: 350px;
+            border: 2px solid #6e6e6e;
+            border-radius: 12px;
+            box-shadow: 11px 12px 15px -1px rgba(148, 148, 148, 0.52);
+        
+        }
 
-.cup_world .first_title {
-    padding: 20px 0;
-    text-align: center;
-}
+        .cp_img_catar {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
 
-.cp_img_collection {
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.cp_img {
-  display: inline-block;
-  width: auto;
-  margin: 20px 40px;
-}
-
-.cp_img img{
-  height: 350px;
-  border: 2px solid #6e6e6e;
-  border-radius: 12px;
-  box-shadow: 11px 12px 15px -1px rgba(148,148,148,0.52);
-}
-
-.catar_bloco h2 {
-  font-size: 50px;
-}
-
-.catar_bloco {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 10px 0;
-  margin-top: 75px;
-  margin-bottom: 75px;
-}
-
-.catar_bloco p {
-    padding: 10px 0;
-    margin-top: 75px;
-    margin-bottom: 75px;
-}
-
-.cp_img_catar {
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.cp_img_catar img {
-  border-radius: 12px;
-  box-shadow: 11px 12px 15px -1px rgba(148,148,148,0.52);
-  margin-top: 50px;
-}
+        .cp_img_catar img {
+            border-radius: 12px;
+            box-shadow: 11px 12px 15px -1px rgba(148, 148, 148, 0.52);
+            margin-top: 50px;
+        }
     </style>
 </head>
+
 <body>
-    <header>
-        <div class="caixa">
-            <h1><img src="https://upload.wikimedia.org/wikipedia/pt/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png" width="150px"></h1>
+    <!--Início da barra de navegação-->
+    <nav class="menu">
+        <div>
+            <a href="home.html"><img
+                    src="https://www.vilacriativa.com.br/wp-content/uploads/2019/09/qatar_2022_logo.jpg"
+                    id="logo"></img></a>
+        </div>
 
-            <nav>
-
+        <ul>
+            <li><a href="estadios.html" class="links">Estádios</a>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Seleções</a></li>
-                    <li><a href="#">Grupos</a></li>
-                    <li><a href="#">Estádios</a></li>
                 </ul>
+            </li>
+            <li><a href="grupos.html" class="links">Grupos</a></li>
+            <li><a href="selecoes.html" class="links">Seleções</a></li>
+            <li><a href="home.html" class="links">Home</a></li>
+        </ul>
+    </nav>
+    <!--Fim da barra de navegação-->
+    <div class="fundo">
+        <div class="container-content">
+            <!--Essa div é onde será inserido todo o conteúdo do site-->
+            <div class="cup_world">
+                <h2 class="first_title"> Copa do Mundo da FIFA</h2>
+                <p>
+                    A Copa do Mundo é uma competição internacional organizada pela Federação Internacional de Futebol
+                    (FIFA) a cada quatro anos. A primeira Copa do Mundo aconteceu em 1930, após muitos anos de
+                    tentativas de se organizar uma competição mundial de futebol e a primeira competição foi sediada no
+                    Uruguai. A escolha da nação-sede é determinada em eleições feitas pela própria Fifa.
+                </p>
+                <p>
+                    Com o passar dos anos e a popularização do futebol, a Copa do Mundo tornou-se um evento grandioso e
+                    que mobiliza uma grande quantidade de dinheiro e foi ganhando cada vez mais seleções participantes,
+                    atualmente o evento conta com 32 seleções, divididas em 8 grupos. A seleção brasileira é a única que
+                    participou de todas as edições da copa e também a que mais possui títulos, contando atualmente com
+                    cinco. A edição de 2022 será sediada no Catar, entre os meses de novembro e dezembro.
+                </p>
+            </div>
+            <div class="cp_img_collection">
+                <div class="cp_img">
+                    <img src="https://i.pinimg.com/564x/2a/4b/4e/2a4b4e60cf00c115a5b64c0cbe29e522.jpg" alt="">
+                </div>
+                <div class="cp_img">
+                    <img src="https://i.pinimg.com/564x/9a/7d/4d/9a7d4d093081f394f7dd5d8e7fd369b2.jpg" alt="">
+                </div>
+            </div>
 
-            </nav>
+            <div class="catar_bloco">
+
+                <h2 class="first_title">País sede - Catar</h2>
+
+                <p>
+                    O catar está localizado na península arábica na Ásia Continental, correspondendo a uma área de
+                    aproximadamente 11.610 km2 até o norte do Golfo Pérsico, faz fronteira com a Arábia Saudita e é
+                    separado por um estreito do Golfo Pérsico do país Bahrein. Além disso, possui uma população de quase
+                    três milhões de habitantes e desse total, cerca de 75% são estrangeiros, representados especialmente
+                    pelos indianos. No país, há também comunidades nepalenses, filipinas, paquistanesas e de outras
+                    nacionalidades menos representativas. Cerca de 800 brasileiros vivem, atualmente, no Catar.
+                </p>
+                <p>
+                    Atualmente, é um dos países mais ricos do mundo e sua renda per capita é de aproximadamente US$ 124
+                    mil. Além disso, segundo o Relatório Global de Competitividade, é uma das nações com a menor carga
+                    tributária do mundo. A economia baseia-se, especialmente, na exportação de petróleo e gás natural,
+                    que juntos representam em torno de 50% do Produto Interno Bruto do país.
+                </p>
+
+                <div class="cp_img_catar">
+                    <img src="https://lh3.googleusercontent.com/-zxsytL_8Ld0/VTvIhLRRIfI/AAAAAAAAE-c/XuUaeVRGoxg/s512/catar.PNG"
+                        alt="">
+                </div>
+
+            </div>
         </div>
-    </header>
-    <main>
-      <div class="cup_world">
-          <h2 class="first_title"> Copa do Mundo Catar 2022</h2>
-            <p>
-                A Copa do Mundo é uma competição internacional organizada pela Federação Internacional de Futebol (FIFA) a cada quatro anos. A primeira Copa do Mundo aconteceu em 1930, após muitos anos de tentativas de se organizar uma competição mundial de futebol e a primeira competição foi sediada no Uruguai. A escolha da nação-sede é determinada em eleições feitas pela própria Fifa.
-            </p>
-            <p>
-                Com o passar dos anos e a popularização do futebol, a Copa do Mundo tornou-se um evento grandioso e que mobiliza uma grande quantidade de dinheiro e foi ganhando cada vez mais seleções participantes, atualmente o evento conta com 32 seleções, divididas em 8 grupos. A seleção brasileira é a única que participou de todas as edições da copa e também a que mais possui títulos, contando atualmente com cinco. A edição de 2022 será sediada no Catar, entre os meses de novembro e dezembro.
-            </p>
-      </div>
-      <div class="cp_img_collection">
-        <div class="cp_img">
-          <img src="https://i.pinimg.com/564x/2a/4b/4e/2a4b4e60cf00c115a5b64c0cbe29e522.jpg" alt="">
-        </div>
-        <div class="cp_img">
-          <img src="https://cdn.jornaldebrasilia.com.br/wp-content/uploads/2019/06/catar.jpg" alt="">
-        </div>
-        <div class="cp_img">
-          <img src="https://i.pinimg.com/564x/9a/7d/4d/9a7d4d093081f394f7dd5d8e7fd369b2.jpg" alt="">
-        </div>
-      </div>
-
-      <div class="catar_bloco">
-
-          <h2>Catar</h2>
-
-          <p>
-            O catar está localizado na península arábica na Ásia Continental, correspondendo a uma área de aproximadamente 11.610 km2 até o norte do Golfo Pérsico, faz fronteira com a Arábia Saudita e é separado por um estreito do Golfo Pérsico do país Bahrein. Além disso, possui uma população de quase três milhões de habitantes e desse total, cerca de 75% são estrangeiros, representados especialmente pelos indianos. No país, há também comunidades nepalenses, filipinas, paquistanesas e de outras nacionalidades menos representativas. Cerca de 800 brasileiros vivem, atualmente, no Catar.
-          </p>
-          <p>
-            Atualmente, é um dos países mais ricos do mundo e sua renda per capita é de aproximadamente US$ 124 mil. Além disso, segundo o Relatório Global de Competitividade, é uma das nações com a menor carga tributária do mundo. A economia baseia-se, especialmente, na exportação de petróleo e gás natural, que juntos representam em torno de 50% do Produto Interno Bruto do país.
-          </p>
-
-        <div class="cp_img_catar">
-          <img src="https://i0.wp.com/periodistas-es.com/wp-content/uploads/Doha-Catar.jpg?resize=550%2C309" alt="">
-        </div>
-
-      </div>
-
-
-    </main>
+    </div>
 </body>
+
 </html>
