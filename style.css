@@ -3,15 +3,15 @@
     margin: 0;
     padding: 0;
     font-family: Gill Sans, sans-serif;
+    box-sizing: border-box;
     }
 /*Estilizando a imagem*/
 body {
-    width: 1200px;
-    height: 150px;
-    background-repeat: no-repeat;
+    height: 100%;
+    background-position: right;
     background-repeat: repeat-y;
-    background-position-x: right;
-    background-image: url(BANDEIRA_CATAR.png)
+    background-image: url(BANDEIRA_CATAR.png);
+
 }
  /*Fim da estilização de imagem*/
 
@@ -23,7 +23,8 @@ body {
   }
     .menu {
     width: 100%;
-    height: 70px;
+    height: 100px;
+    padding: 30px 2%;
     background-color: #fff;
     font-size: 15px;
     text-transform: uppercase;
@@ -32,11 +33,10 @@ body {
    
     .menu ul {
     list-style: none;
-    position: relative;
     }
    
    .menu ul li {
-    width: 10%;
+    width: calc(30% / 4);
     float: right;
     }
    
@@ -51,14 +51,7 @@ body {
     margin-top: 15px;
     }
    
-   .menu ul ul {
-    position: absolute;
-    visibility: hidden;
-    }
-   
-   .menu ul li:hover ul {
-    visibility: visible;
-    }
+
    
    .menu .links:hover {
     background-color: #CD0000;
@@ -77,11 +70,12 @@ body {
 
 /*Estilizando a formatação do site*/
 .container-content {
-    width: 70%;
+    width: 100%;
+    max-width: 1200px;
     margin: 20px auto;
     margin-top: 25px;
     text-align:justify;
-    padding: 25px;
+    padding: 25px 5%;
 }
 h2 {
     font-size: 35px;
