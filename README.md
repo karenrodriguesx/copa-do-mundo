@@ -15,5 +15,5 @@
   
   A página de Estádios aborda detalhadamente sobre cada estádio onde ocorrerão os jogos, com informações como a capacidade, localização e tabela de jogos que irá receber.
   
-  - O site foi feito de forma colaborativa, em grupo com 6 integrantes e trata-se de um trabalho acadêmico.
-  
+  - Publicado em https://karenrodriguesx.github.io/copa-do-mundo/
+  - Este projeto foi feito de forma colaborativa, em grupo com 6 integrantes e trata-se de um trabalho acadêmico.
