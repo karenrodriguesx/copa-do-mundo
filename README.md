@@ -14,11 +14,6 @@
   A página de Grupos fala sobre as seleções que fazem parte de cada grupo, os dias de jogos e os locais, além dos estádio onde irão ocorrer os jogos;
   
   A página de Estádios aborda detalhadamente sobre cada estádio onde ocorrerão os jogos, com informações como a capacidade, localização e tabela de jogos que irá receber.
- ## Integrantes do grupo:
-  - Caio Vinícius Batista da Silva
-  - Gabriel Trindade Rocha
-  - Johnathan Menezes Nóbrega
-  - Karen Gabrielle Fernandes Rodrigues
-  - Luís Gustavo Fragelli Correa
-  - Wilmondes Gabriel Teixeira
+  
+  - O site foi feito de forma colaborativa, em grupo com 6 integrantes e trata-se de um trabalho acadêmico.
   
